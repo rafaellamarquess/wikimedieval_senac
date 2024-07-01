@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.wikimedieval.views.BuscarMidiaView">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="900" height="600"/>
+    </constraints>
+    <properties>
+      <background color="-15719376"/>
+      <maximumSize width="900" height="600"/>
+      <minimumSize width="900" height="600"/>
+    </properties>
+    <border type="line"/>
+    <children>
+      <component id="ff456" class="javax.swing.JButton" binding="homeButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="DejaVu Sans Mono" size="14" style="0"/>
+          <icon value="img/home.png"/>
+          <iconTextGap value="6"/>
+          <text value="Home"/>
+        </properties>
+      </component>
+      <component id="52ee1" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="DejaVu Sans Mono" size="12" style="2"/>
+          <foreground color="-16777216"/>
+          <text value="Pesquisar ..."/>
+        </properties>
+      </component>
+      <component id="ebd30" class="javax.swing.JButton" binding="buscarMidiaButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="DejaVu Sans Mono" size="14" style="0"/>
+          <icon value="img/pastamidia.png"/>
+          <iconTextGap value="6"/>
+          <text value="Buscar Midia"/>
+        </properties>
+      </component>
+      <grid id="65e32" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="50" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="6" vsize-policy="3" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15719376"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="fd6c9" class="javax.swing.JComboBox" binding="dropDownMidia">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="DejaVu Sans Mono" size="14" style="0"/>
+              <model>
+                <item value="Midia"/>
+              </model>
+            </properties>
+          </component>
+          <component id="93bf6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="DejaVu Sans Mono" size="14" style="0"/>
+              <foreground color="-1"/>
+              <text value="Selecione o Tipo de Mídia"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="58cf4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="DejaVu Math TeX Gyre" size="16" style="1"/>
+          <foreground color="-1"/>
+          <icon value="img/logo (1).png"/>
+          <text value="Wiki Medieval"/>
+          <verticalTextPosition value="3"/>
+        </properties>
+      </component>
+      <hspacer id="729ba">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="240c5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="img/lupa.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="cbfa2" class="javax.swing.JButton" binding="logInButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="DejaVu Sans Mono" size="14" style="0"/>
+          <icon value="img/pessoa.png"/>
+          <iconTextGap value="6"/>
+          <text value="LogIn"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.wikimedieval.views.AddMidiaView">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="993" height="596"/>
+    </constraints>
+    <properties>
+      <background color="-15719376"/>
+    </properties>
+    <border type="line"/>
+    <children>
+      <component id="c18e6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="DejaVu Math TeX Gyre" size="16" style="1"/>
+          <foreground color="-1"/>
+          <icon value="img/logo (1).png"/>
+          <text value="Wiki Medieval"/>
+          <verticalTextPosition value="3"/>
+        </properties>
+      </component>
+      <component id="39286" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="img/lupa.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="83174" class="javax.swing.JTextField" binding="pesquisarTextField" default-binding="true">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="DejaVu Sans Mono" size="12" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Pesquisar ..."/>
+        </properties>
+      </component>
+      <component id="57e2d" class="javax.swing.JButton" binding="homeButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="DejaVu Sans Mono" size="14" style="0"/>
+          <icon value="img/home.png"/>
+          <text value="Home"/>
+        </properties>
+      </component>
+      <component id="5989c" class="javax.swing.JButton" binding="logInButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="DejaVu Sans Mono" size="14" style="0"/>
+          <icon value="img/pessoa.png"/>
+          <text value="LogIn"/>
+        </properties>
+      </component>
+      <component id="9ae90" class="javax.swing.JButton" binding="buscarMidiaButton">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="DejaVu Sans Mono" size="14" style="0"/>
+          <icon value="img/pastamidia.png"/>
+          <text value="Buscar Mídia"/>
+        </properties>
+      </component>
+      <grid id="cde0d" binding="addMidiaPanel" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="50" left="30" bottom="0" right="30"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15719376"/>
+        </properties>
+        <border type="etched"/>
+        <children>
+          <component id="af443" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="DejaVu Sans Mono" size="14" style="0"/>
+              <foreground color="-1"/>
+              <text value="Título:"/>
+            </properties>
+          </component>
+          <component id="7926b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="DejaVu Sans Mono" size="14" style="0"/>
+              <foreground color="-1"/>
+              <text value="Descrição:"/>
+            </properties>
+          </component>
+          <component id="cbe4" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="DejaVu Sans Mono" size="14" style="0"/>
+              <foreground color="-1"/>
+              <text value="Autor/Diretor:"/>
+            </properties>
+          </component>
+          <component id="818ea" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="DejaVu Sans Mono" size="14" style="0"/>
+              <foreground color="-1"/>
+              <text value="Ano Lançamento:"/>
+            </properties>
+          </component>
+          <component id="d7c5e" class="javax.swing.JTextField" binding="txtDescricao">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+          </component>
+          <component id="34a15" class="javax.swing.JTextField" binding="txtTitulo">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+          </component>
+          <component id="80964" class="javax.swing.JTextField" binding="txtAutorDiretor">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+          </component>
+          <component id="43707" class="javax.swing.JTextField" binding="txtAnoLancamento">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+          </component>
+          <component id="4896e" class="javax.swing.JButton" binding="cancelarMidiaButton">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="DejaVu Sans Mono" size="14" style="0"/>
+              <text value="Cancelar"/>
+            </properties>
+          </component>
+          <component id="7ae3" class="javax.swing.JButton" binding="salvarMidiaButton">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="DejaVu Sans Mono" size="14" style="0"/>
+              <text value="Adicionar"/>
+            </properties>
+          </component>
+          <component id="20479" class="javax.swing.JTextField" binding="txtTipoMidia">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="ac885" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="DejaVu Sans Mono" size="14" style="0"/>
+              <foreground color="-1"/>
+              <text value="Tipo:"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

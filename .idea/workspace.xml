@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="wikimedievalswing:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b13073d-5fc3-4655-b771-0b1bf12fff87" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wikimedieval/controller/AddMidiaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wikimedieval/controller/AddMidiaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wikimedieval/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wikimedieval/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wikimedieval/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wikimedieval/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wikimedieval/controller/MidiaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wikimedieval/controller/MidiaController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2iKcBBBFIsj4hMYAKAEUt2qlbjt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH&quot;: &quot;148&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;297&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/catspajamas/wikimedieval_javaswing&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/wikimedieval/views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/wikimedieval/views" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/wikimedieval" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wikimedieval.Main" />
+      <module name="wikimedievalswing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wikimedieval.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b13073d-5fc3-4655-b771-0b1bf12fff87" name="Changes" comment="" />
+      <created>1719242571023</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719242571023</updated>
+      <workItem from="1719242572008" duration="964000" />
+      <workItem from="1719243747220" duration="2063000" />
+      <workItem from="1719246132370" duration="359000" />
+      <workItem from="1719247541539" duration="250000" />
+      <workItem from="1719273802400" duration="86000" />
+      <workItem from="1719274188890" duration="300000" />
+      <workItem from="1719313219916" duration="99000" />
+      <workItem from="1719313404013" duration="132000" />
+      <workItem from="1719313585976" duration="132000" />
+      <workItem from="1719313772474" duration="105000" />
+      <workItem from="1719313911695" duration="32000" />
+      <workItem from="1719313986930" duration="168000" />
+      <workItem from="1719314432329" duration="755000" />
+      <workItem from="1719315412267" duration="636000" />
+      <workItem from="1719316842004" duration="1237000" />
+      <workItem from="1719318444394" duration="1336000" />
+      <workItem from="1719320139197" duration="996000" />
+      <workItem from="1719323844746" duration="2642000" />
+      <workItem from="1719326774368" duration="1625000" />
+      <workItem from="1719347528299" duration="1190000" />
+      <workItem from="1719355034079" duration="316000" />
+      <workItem from="1719360098885" duration="326000" />
+      <workItem from="1719360929329" duration="716000" />
+      <workItem from="1719410704670" duration="1758000" />
+      <workItem from="1719426524418" duration="4456000" />
+      <workItem from="1719509064377" duration="1695000" />
+      <workItem from="1719512140327" duration="1000" />
+      <workItem from="1719512153693" duration="1394000" />
+      <workItem from="1719573808228" duration="13643000" />
+      <workItem from="1719588532484" duration="3166000" />
+      <workItem from="1719591896526" duration="1065000" />
+      <workItem from="1719612971958" duration="720000" />
+      <workItem from="1719620220490" duration="869000" />
+      <workItem from="1719695299332" duration="853000" />
+      <workItem from="1719745973301" duration="910000" />
+      <workItem from="1719747063710" duration="27000" />
+      <workItem from="1719830480115" duration="54000" />
+      <workItem from="1719830580680" duration="2328000" />
+      <workItem from="1719834830601" duration="34000" />
+      <workItem from="1719834895386" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLException" package="java.sql" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
